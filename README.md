@@ -1,4 +1,4 @@
-# Project Title
+# Music Website Template
 
 Free website template built for musicians / artists wishing to promote their music and connect to their audience. Includes a mailing list form, local music player, YouTube video player, and picture modal.
 
