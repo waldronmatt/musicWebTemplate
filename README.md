@@ -2,6 +2,8 @@
 
 Free website template built for musicians / artists wishing to promote their music and connect to their audience. Includes a mailing list form, local music player, YouTube video player, and picture modal.
 
+To view a live demo of this website, go to: http://waldronmatthew.com/websites/music/index.html
+
 ## Getting Started
 
 To edit the mailing list:
