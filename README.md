@@ -1,6 +1,6 @@
 # Music Website Template
 
-Free website template built for musicians / artists wishing to promote their music and connect to their audience. Includes a mailing list form, local music player, YouTube video player, and picture modal.
+Free website template built for musicians / artists wishing to promote their music and connect to their audience. Includes a mailing list form, local music player, YouTube video player, and a picture modal.
 
 To view a live demo of this website, go to: http://waldronmatthew.com/websites/music/index.html
 
@@ -9,18 +9,18 @@ To view a live demo of this website, go to: http://waldronmatthew.com/websites/m
 To edit the mailing list:
 
 1) Create your own Google Sheets mailing list by following the tutorial by David McCoy: https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
-2) Replace your newly created google sheets link in mailingList.js
+2) Replace your newly created google sheets link via "url" in mailingList.js
+3) Substitute your picture name in class "hero" in style.css
 
-Substitute your picture name in class "hero" in style.css
+To edit the about section: 
 
-To edit the about section:
-
-Edit class "About" in index.html 
+1) Change the social media links to your own
+2) Edit class "About" in index.html 
 
 To edit the music section:
 
 1) Edit class "Music" in index.html
-2) Substitute with your own music links
+2) Change the music links to your own
 3) Substitute your picture name in class "music-hero" in style.css
 
 To add featured songs:
@@ -44,9 +44,13 @@ Edit class "Shows" in index.html.
 
 To edit the pictures section:
 
-1) Copy your pictures to dir /pcitures/gallery
+1) Copy your pictures to dir /pictures/gallery
 2) Substitute your picture name in classes ".a, .b, .c", ect... in style.css
 3) Substitute your picture name in class "grid" in index.html
+
+To edit the footer:
+1) Change the footer links to your own
+2) Replace with your artist / band name in terms.html
 
 ## Built With
 
@@ -56,11 +60,11 @@ To edit the pictures section:
 
 ## Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with Matthew Waldron before making a change.
 
 ## Versioning
 
-Version 1.00
+Version 1.0.0
 
 ## Authors
 
@@ -74,5 +78,5 @@ Please abide by the Terms of Use and Website Credits pages.
 
 ## Acknowledgments
 
-* A HUGE thank you to all developers whom I used MIT licensed code from. They are listed on the "Website credits" page. 
+A HUGE thank you to all developers whom I used MIT licensed code from. They are listed on the "Website Credits" page. 
 
