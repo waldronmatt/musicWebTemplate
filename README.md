@@ -24,9 +24,10 @@ To edit the music section:
 3) Substitute your picture name in class "music-hero" in style.css
 
 To add featured songs:
-1) Place the songs in dir /music
-2) Edit array var "files" in musPlayer.js 
-3) To add a song in the array, use the following format: "Your Song Title.mp3"
+1) Edit your song using a DAW into a 30 second clip preview to optomize load and streaming time
+2) Place the songs in dir /music
+3) Edit array var "files" in musPlayer.js 
+4) To add a song in the array, use the following format: "Your Song Title.mp3"
 
 To edit the press section:
 
