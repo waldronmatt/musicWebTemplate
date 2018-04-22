@@ -33,6 +33,7 @@ body {
 .anchor { 
 	padding-top: 75px;
 	margin-top: -75px; 
+	z-index: 50;
 }  
 
 /********************************************** HEADER ********************************************/
@@ -384,6 +385,7 @@ h1, h2, h3 {
 h4, h5 {
 	font-size: 1.250em;
 	margin: 0 0 .6em 0;
+	line-height: 1.75em;
 }
 
 h6 {
@@ -393,6 +395,10 @@ h6 {
 
 h3 {
 	text-align: center;
+}
+
+#read-bio {
+	margin-bottom: 2em;
 }
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
@@ -430,6 +436,7 @@ h1, h2, h3 {
 h4, h5 {
 	font-size: 1.125em;
 	margin: 0 0 .6em 0;
+	line-height: 1.75em;
 }
 
 h6 {
@@ -543,6 +550,7 @@ footer {
     text-decoration: none;
 	margin: 2em .5em 2em .5em;
 }
+
 
 /* Text lines underneath Social Media Icons*/
 ul#btmtext {
@@ -677,7 +685,7 @@ ul#pages-music li a {
 	font-weight: bold;
 	font-size: 1em;
 	height: 1.063em;
-	margin: .7em 0 1.5em 0;
+	margin: .7em 0 -.5em 0;
 	padding: .6em 1.2em .6em 1.2em;
 	text-align: center;
 	color: #fff;
@@ -708,7 +716,7 @@ ul#pages-music  p {
 ul#pages-music li a {
     letter-spacing: 0.15em;	
 	font-size: .9em;
-
+	margin: .7em 0 1em 0;
 }
 
 }
@@ -805,7 +813,7 @@ ul#pages-music li a {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 1000; /* Sit on top */
     padding-top: 250px; /* Location of the box */
     left: 0;
     top: 0;
@@ -883,14 +891,18 @@ ul#pages-music li a {
 .hero {
 	background-image: url("../pictures/gallery/c10.jpg");
 	height: 420px;
-
+	z-index: 100;
+	margin-bottom: -46px;
+	border-bottom: .2em solid #333a56;
 }
+
 .music-hero {
 	background-image: url("../pictures/gallery/c8.jpg");
 	height: 300px;
 	margin-bottom: 2em;
 	margin-top: 2em;
 }
+
 .hero, .music-hero {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -909,7 +921,7 @@ ul#pages-music li a {
 #overlay, #music-overlay {
     position: sticky;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.4);
 }
 
 .hero-text {
@@ -925,18 +937,19 @@ ul#pages-music li a {
 @media screen and (min-width: 320px) and (max-width: 767px) {
 .hero {
 	background-image: url("../pictures/gallery/c10.jpg");
-	height: 340px;
+	height: 360px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	margin-bottom: -56px;
 }
 
 #overlay {
     position: sticky;
     width: 100%;
-    height: 340px;
-    background-color: rgba(0,0,0,0.5);
+    height: 360px;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .hero-text {
@@ -960,7 +973,7 @@ ul#pages-music li a {
 	display:inline-block;
 	width: 100%;
 	height: 60px;
-	margin: 20px auto 20px auto;
+	margin: 20px auto 40px auto;
 	border: .0625em solid #333a56; 
 
 }
@@ -1055,6 +1068,7 @@ td, th {
 
 #shows-text {
 	margin-top: 1.5em;
+	margin-bottom: .5em;
 }
 
 /*********************************************************************************************/
@@ -1079,7 +1093,7 @@ td, th {
 /* Margin for videos */
 #video {
 	position:relative;
-	margin: 20px 0px 20px 0px;
+	margin: 1.25em 0em 2.188em 0em;
 }
 
 .youtube-player {

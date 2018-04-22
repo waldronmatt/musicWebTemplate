@@ -5,6 +5,6 @@
 				x.className += "show";
 			} else {
 				x.className = "hide";
-				$('.hide').show().fadeOut(1000);
+				$('.hide').show().fadeOut(750);
 			}
 		}
