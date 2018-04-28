@@ -24,7 +24,7 @@ To edit the music section:
 3) Substitute your picture name in class "music-hero" in style.css
 
 To add featured songs:
-1) Edit your song using a DAW into a 30 second clip preview to optomize load and streaming time
+1) Edit your song using a DAW into a 30 second clip preview to optimize load and streaming time
 2) Place the songs in dir /music
 3) Edit array var "files" in musPlayer.js 
 4) To add a song in the array, use the following format: "Your Song Title.mp3"
@@ -45,9 +45,10 @@ Edit class "Shows" in index.html.
 
 To edit the pictures section:
 
-1) Copy your pictures to dir /pictures/gallery
-2) Substitute your picture name in classes ".a, .b, .c", ect... in style.css
-3) Substitute your picture name in class "grid" in index.html
+1) Compress your pictures to optimize load time
+2) Copy your pictures to dir /pictures/gallery
+3) Substitute your picture name in classes ".a, .b, .c", ect... in style.css
+4) Substitute your picture name in class "grid" in index.html
 
 To edit the footer:
 1) Change the footer links to your own
@@ -61,11 +62,11 @@ To edit the footer:
 
 ## Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with Matthew Waldron before making a change.
+When contributing to this repository, you may fork and submit a pull request. Add a description of what you are doing and I'll review it.
 
 ## Versioning
 
-Version 1.0.0
+Version 1.2.4
 
 ## Authors
 
