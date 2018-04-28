@@ -2,7 +2,7 @@
 
 Free website template built for musicians / artists wishing to promote their music and connect to their audience. Website features a homepage hero image, mailing list form, local music player, album hero image, YouTube video player, and a responsive picture modal.
 
-To view a live demo of this website, go to: http://waldronmatthew.com/websites/music/index.html
+To view a live demo of this website, go to: http://waldronmatthew.com/portfolio/music/index.html
 
 ## Getting Started
 
