@@ -1027,11 +1027,11 @@ text-align: center;
 }
 
 .play {
-	background: url(../images/play.png);
+	background: url(../pictures/images/play.png);
 }
 
 .pause {
-	background: url(../images/pause.png);
+	background: url(../pictures/images/pause.png);
 }
 
 .play, .pause {
@@ -1181,7 +1181,7 @@ td, th {
     margin-left: -36px;
     margin-top: -36px;
     position: absolute;
-    background: url("../images/youtube-play.png") no-repeat;
+    background: url("../pictures/images/youtube-play.png") no-repeat;
     cursor: pointer;
 }
 
