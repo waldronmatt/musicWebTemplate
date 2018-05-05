@@ -880,14 +880,14 @@ ul#pages-music li a {
 }
 
 /* The Close Button */
-.close {
+.close, .close_error {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close:hover, .close_error:hover, .close:focus, .close_error:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
