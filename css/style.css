@@ -12,7 +12,7 @@
 body {
 	background-color: #333a56;
 	margin: 0;
-	padding-top: 90px;
+	padding-top: 100px;
 }
 
 .left {
@@ -47,7 +47,7 @@ body {
 /* Sets the header background and height */
 header {
 	background-color: #333a56;
-	height: 90px;
+	height: 100px;
 }
 
 /* Big Name Logo (Logo 1) and Subtitle (Logo 2) */
@@ -63,7 +63,7 @@ header {
 	margin: 0 0 0 0;
 	text-align: center;
 	letter-spacing: .2em;
-	font: normal 300% 'century gothic', arial, sans-serif;
+	font: normal 300% 'Tajawal', sans-serif;
 	color: #FFF;
 }
 
@@ -75,7 +75,7 @@ header {
 	display: block;
 	text-align: center;
 	letter-spacing: .35em;
-	font: normal 90% 'century gothic', sans-serif;
+	font: normal 90% 'Tajawal', sans-serif;
 	color: #FFF;
 }
 
@@ -127,18 +127,18 @@ header {
 	margin: 0 auto;
 	text-align: center;
 	letter-spacing: .2em;
-	font: normal 200% 'century gothic', arial, sans-serif;
+	font: normal 250% 'Tajawal', sans-serif;
 	color: #FFF;
-	padding-top: .375em;
+	padding-top: .1875em;
 }
 
 #logo h2 {
  	display: block;
 	text-align: center;
 	letter-spacing: .35em;
-	font: normal 80% 'century gothic', sans-serif;
+	font: normal 85% 'Tajawal', sans-serif;
 	color: #FFF;
-	padding-top: .75em;
+	padding-top: .1875em;
 }
 
 }
@@ -157,16 +157,16 @@ header {
 	margin: 0 auto;
 	text-align: center;
 	letter-spacing: .2em;
-	font: normal 160% 'century gothic', arial, sans-serif;
+	font: normal 185% 'Tajawal', sans-serif;
 	color: #FFF;
-	padding-top: .625em;
+	padding-top: .5em;
 }
 
 #logo h2 {
  	display: block;
 	text-align: center;
 	letter-spacing: .35em;
-	font: normal 65% 'century gothic', sans-serif;
+	font: normal 70% 'Tajawal', sans-serif;
 	color: #FFF;
 	padding-top: 1em;
 }
@@ -241,8 +241,8 @@ nav a {
 	padding:0 20px;	
 	color:#000;
 	letter-spacing: 0.3em;
-    font-size: 1em;
-    font-family: 'century gothic', sans-serif;
+    font-size: 1.15em;
+    font-family: 'Tajawal', sans-serif;
 	line-height: 40px;
 	text-decoration:none;
 	text-align: center;
@@ -392,7 +392,7 @@ nav .scroll {
 
  /* Body Tag fonts */
 p, h1, h2, h3, h4, h5, h6 { 
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
 }
 
 /* Font + margin + letter spacing for Body Tags */
@@ -483,6 +483,7 @@ h6 {
 }
 
 .horizontal {
+	visibility: hidden;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
@@ -492,16 +493,16 @@ h6 {
 /* Text Title Lines on Right & Left */
 @media screen and (min-width: 768px) {
 
-h3 {
+h3.lines {
 	overflow: hidden;
 	text-align: center;
 }
 
-.anchor-box h3:before, .anchor-box h3:after {
+.anchor-box h3.lines:before, .anchor-box h3.lines:after {
 	background-color: #fff;
 }
 
-h3:before, h3:after {
+h3.lines:before, h3.lines:after {
 	background-color: #000;
 	content: "";
 	display: inline-block;
@@ -511,12 +512,12 @@ h3:before, h3:after {
 	width: 50%;
 }
 
-h3:before {
+h3.lines:before {
 	right: 0.5em;
 	margin-left: -50%;
 }
 
-h3:after {
+h3.lines:after {
 	left: 0.5em;
 	margin-right: -50%;
 }
@@ -545,7 +546,7 @@ footer {
 	display: inline;
 	background-color: #333a56;
 	height: 1.3em;
-	font: normal 70% 'century gothic', arial, sans-serif;
+	font: normal 80% 'Tajawal', sans-serif;
 	margin: .3em auto .3em auto;
 	max-width: 80%;
 	width: 80%;
@@ -603,7 +604,7 @@ ul#btmtext h6 li {
 ul#btmtext h6 li a {
 	display: inline-block;
 	color: #FFF;
-	font: normal 100% 'century gothic', arial, sans-serif;
+	font: normal 100% 'Tajawal', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.3em;
@@ -618,7 +619,7 @@ ul#btmtext h6 li a {
 	display: inline;
 	background-color: #333a56;
 	height: 1.3em;
-	font: normal 60% 'century gothic', arial, sans-serif;
+	font: normal 75% 'Tajawal', sans-serif;
 	margin: .3em auto .3em auto;
 	max-width: 90%;
 	width: 90%;
@@ -658,7 +659,7 @@ ul#pages, ul#pages li {
 ul#pages li a { 
 	display: inline-block;
 	letter-spacing: 0.25em;
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
 	height: 1.063em;
@@ -715,7 +716,7 @@ ul#pages-music , ul#pages-music li {
 ul#pages-music li a { 
 	display: inline-block;
 	letter-spacing: 0.25em;
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
 	height: 1.063em;
@@ -768,7 +769,7 @@ ul#pages-music li a {
 .form_settings input, .form_settings textarea { 
 	width: 50%;
 	padding: 10px; 
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
   	font-weight: bold;
 	font-size: 1.15em;
 	border: 2px solid #000000 ; 
@@ -782,7 +783,7 @@ ul#pages-music li a {
 }
   
 .form_settings .submit { 
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
 	letter-spacing: .25em;
   	font-weight: bold;
 	font-size: 1.15em;
@@ -812,7 +813,7 @@ ul#pages-music li a {
 .form_settings input, .form_settings textarea { 
 	width: 90%;
 	padding: 10px; 
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
   	font-weight: bold;
 	font-size: 1em;
 	border: 2px solid #000000 ; 
@@ -821,7 +822,7 @@ ul#pages-music li a {
 }
   
 .form_settings .submit { 
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
 	letter-spacing: .25em;
   	font-weight: bold;
 	font-size: 1em;
@@ -898,11 +899,11 @@ ul#pages-music li a {
 	border: 2px solid white;
 	border-radius: 2em;
 	text-decoration: none;
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
 	color: white;
 	background-color: rgba(51,58,86, 0.3);
 	font-size: 1.15em;
-	padding: 1em 1.15em 1em 1.15em;
+	padding: .875em 1.188em .875em 1.188em;
 }
 
 #go-btm a {
@@ -969,6 +970,10 @@ ul#pages-music li a {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+#home {
+	padding-top: .5em;
+}
+
 .hero {
 	background-image: url("../pictures/gallery/c10.jpg");
 	height: 360px;
@@ -1072,7 +1077,7 @@ td, th {
     font-size: 1.250em;
 	margin: 0 0 .6em 0;
 	line-height: 1.75em;
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
 	padding: 25px;
 	text-align: center;
 }
@@ -1281,7 +1286,7 @@ div.hide {
 	color: white;
 	letter-spacing: 0.2em;
 	line-height: 1.25em;
-	font-family: Garamond, Baskerville, “Baskerville Old Face”, “Hoefler Text”, “Times New Roman”, serif;
+	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	width: 80%;
 	text-align: center;
