@@ -240,7 +240,7 @@ nav a {
 	display:block;
 	padding:0 20px;	
 	color:#000;
-	letter-spacing: 0.3em;
+	letter-spacing: 0.2em;
     font-size: 1.15em;
     font-family: 'Tajawal', sans-serif;
 	line-height: 40px;
@@ -559,7 +559,7 @@ footer {
 	clear: both;
 	color: #FFF;
 	text-transform: uppercase;
-	letter-spacing: 0.3em;
+	letter-spacing: 0.2em;
 }
 
 #social_media li {
@@ -607,7 +607,7 @@ ul#btmtext h6 li a {
 	font: normal 100% 'Tajawal', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
-	letter-spacing: 0.3em;
+	letter-spacing: 0.2em;
 	margin: .4em auto .4em auto;
 }
 
@@ -658,7 +658,7 @@ ul#pages, ul#pages li {
 
 ul#pages li a { 
 	display: inline-block;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.35em;
 	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
@@ -692,7 +692,7 @@ ul#pages p {
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
 ul#pages li a {
-    letter-spacing: 0.15em;	
+    letter-spacing: 0.35em;	
 	font-size: .9em;
 }
 
@@ -715,7 +715,7 @@ ul#pages-music , ul#pages-music li {
 
 ul#pages-music li a { 
 	display: inline-block;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.35em;
 	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
@@ -749,7 +749,7 @@ ul#pages-music  p {
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
 ul#pages-music li a {
-    letter-spacing: 0.15em;	
+    letter-spacing: 0.35em;	
 	font-size: .9em;
 	margin: .7em 0 1em 0;
 }
@@ -784,7 +784,7 @@ ul#pages-music li a {
   
 .form_settings .submit { 
 	font-family: 'Tajawal', sans-serif;
-	letter-spacing: .25em;
+	letter-spacing: .35em;
   	font-weight: bold;
 	font-size: 1.15em;
 	width: 25%; 
@@ -823,7 +823,7 @@ ul#pages-music li a {
   
 .form_settings .submit { 
 	font-family: 'Tajawal', sans-serif;
-	letter-spacing: .25em;
+	letter-spacing: .35em;
   	font-weight: bold;
 	font-size: 1em;
 	width: 50%; 
@@ -901,7 +901,7 @@ ul#pages-music li a {
 	text-decoration: none;
 	font-family: 'Tajawal', sans-serif;
 	color: white;
-	background-color: rgba(51,58,86, 0.3);
+	background-color: rgba(51,58,86);
 	font-size: 1.15em;
 	padding: .875em 1.188em .875em 1.188em;
 }
