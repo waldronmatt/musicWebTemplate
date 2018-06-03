@@ -435,7 +435,7 @@ h3 {
 	margin-bottom: 2em;
 }
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 	
 /* Sets the position + display + formating for the body container */
 .site_content { 
@@ -444,7 +444,7 @@ h3 {
 	position: relative;
 	width: auto;
 	margin: .1em auto .1em auto;
-	padding: 2em .7em 2em .7em;
+	padding: 2em .7em 1em .7em;
 	background-color: #f7f5e6;
 } 
 
@@ -611,7 +611,7 @@ ul#btmtext h6 li a {
 	margin: .4em auto .4em auto;
 }
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 #footer { 
 	position: absolute;
 	left: 50%;
@@ -662,7 +662,6 @@ ul#pages li a {
 	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
-	height: 1.063em;
 	margin: .7em 0 1.5em 0;
 	padding: .6em 1.2em .6em 1.2em;
 	text-align: center;
@@ -690,7 +689,7 @@ ul#pages p {
 	text-align: left;
 }
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 ul#pages li a {
     letter-spacing: 0.35em;	
 	font-size: .9em;
@@ -719,8 +718,7 @@ ul#pages-music li a {
 	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
-	height: 1.063em;
-	margin: .7em 0 -.5em 0;
+	margin: .7em 0 -.25em 0;
 	padding: .6em 1.2em .6em 1.2em;
 	text-align: center;
 	color: #fff;
@@ -747,11 +745,11 @@ ul#pages-music  p {
 	text-align: left;
 }
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 ul#pages-music li a {
     letter-spacing: 0.35em;	
 	font-size: .9em;
-	margin: .7em 0 1em 0;
+	margin: .7em 0 1.25em 0;
 }
 
 }
@@ -896,11 +894,12 @@ ul#pages-music li a {
 
 /*** Bottom button ***/
 .go-btm {
-	border: 2px solid white;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 1.15em;
+	color: white;
+	border: .094em solid white;
 	border-radius: 2em;
 	text-decoration: none;
-	font-family: 'Tajawal', sans-serif;
-	color: white;
 	background-color: rgba(51,58,86);
 	font-size: 1.15em;
 	padding: .875em 1.188em .875em 1.188em;
