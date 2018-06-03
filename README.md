@@ -31,6 +31,14 @@ To add featured songs:
 3) Edit array var "files" in musPlayer.js 
 4) To add a song in the array, use the following format: "Your Song Title.mp3"
 
+To edit the news section:
+
+1) Compress your pictures to optimize load time
+2) Copy your pictures to dir /pictures/blog
+3) Substitute your picture name in classes ".a, .b, .c", ect... in style.css
+4) Substitute your picture name and blog title in class "grid" in index.html
+5) Write your blog post in the blog_(page) html pages.
+
 To edit the press section:
 
 Edit class "Press" in index.html.
