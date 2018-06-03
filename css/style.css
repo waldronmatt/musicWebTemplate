@@ -374,14 +374,14 @@ nav .scroll {
 .site_content { 
 	font-size: 1em;
 	margin: .1em auto .1em auto;
-	padding: 4em 1.3em 1em 1.3em;
+	padding: 4em 1.3em 0em 1.3em;
 	background-color: #f7f5e6;
 } 
 
 .site_content_index { 
 	font-size: 1em;
 	margin: .1em auto .1em auto;
-	padding: 2em 1.3em 1em 1.3em;
+	padding: 2em 1.3em 0em 1.3em;
 	background-color: #f7f5e6;
 } 
 
@@ -445,6 +445,13 @@ h3 {
 	width: auto;
 	margin: .1em auto .1em auto;
 	padding: 2em .7em 1em .7em;
+	background-color: #f7f5e6;
+} 
+
+.site_content_index { 
+	font-size: 1em;
+	margin: .1em auto .1em auto;
+	padding: 2em 1.3em 1em 1.3em;
 	background-color: #f7f5e6;
 } 
 
@@ -658,11 +665,11 @@ ul#pages, ul#pages li {
 
 ul#pages li a { 
 	display: inline-block;
-	letter-spacing: 0.35em;
+	letter-spacing: 0.2em;
 	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
-	margin: .7em 0 1.5em 0;
+	margin: .5em 0 1.5em 0;
 	padding: .6em 1.2em .6em 1.2em;
 	text-align: center;
 	color: #000;
@@ -691,7 +698,7 @@ ul#pages p {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 ul#pages li a {
-    letter-spacing: 0.35em;	
+    letter-spacing: 0.2em;	
 	font-size: .9em;
 }
 
@@ -714,7 +721,7 @@ ul#pages-music , ul#pages-music li {
 
 ul#pages-music li a { 
 	display: inline-block;
-	letter-spacing: 0.35em;
+	letter-spacing: 0.2em;
 	font-family: 'Tajawal', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
@@ -747,7 +754,7 @@ ul#pages-music  p {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 ul#pages-music li a {
-    letter-spacing: 0.35em;	
+    letter-spacing: 0.2em;	
 	font-size: .9em;
 	margin: .7em 0 1.25em 0;
 }
@@ -1256,7 +1263,7 @@ div.hide {
 .grid {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 1.5em;
+	margin: 1.5em 0 1.5em 0;
 }
 
 
@@ -1333,6 +1340,21 @@ div.hide {
 .f {
 	background-image: url("../pictures/gallery/c10.jpg");
 	background-size: cover;
+}
+
+.g {
+  background-image: url("../pictures/blog/song.jpg");
+  background-size: cover;
+}
+
+.h {
+  background-image: url("../pictures/blog/edm.jpg");
+  background-size: cover;
+}
+
+.i {
+  background-image: url("../pictures/blog/eq.jpg");
+  background-size: cover;
 }
 
 
