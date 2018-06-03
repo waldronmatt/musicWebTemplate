@@ -576,7 +576,7 @@ footer {
 	margin: 1em 1.5em 1em 1.5em;
 }
 
-#social_media_music {
+.social_media_music {
 	display: block;
 	position: relative;
 	text-align: center;
@@ -586,7 +586,7 @@ footer {
 	letter-spacing: 2em;
 }
 
-#social_media_music li {
+.social_media_music li {
     display: inline-block;
 	text-align: center;
     text-decoration: none;
@@ -639,7 +639,7 @@ ul#btmtext h6 li a {
 	margin: 1em 1.5em 1em 1.5em;
 }
 
-#social_media_music li {
+.social_media_music li {
 	margin: .5em 0em .5em 0em;
 }
 
@@ -648,14 +648,14 @@ ul#btmtext h6 li a {
 
 /*************************************** BUTTONS *******************************************/
 
-#pagesbar { 
+.pagesbar { 
 	display: block; 
 	text-align: center;
 	clear: both;
 	height: 30%;
 } 
 
-ul#pages, ul#pages li {
+ul.pages, ul.pages li {
 	display: inline-block;
 	width: 100%;
 	margin: 0; 
@@ -663,7 +663,7 @@ ul#pages, ul#pages li {
 	list-style: none;
 }
 
-ul#pages li a { 
+ul.pages li a { 
 	display: inline-block;
 	letter-spacing: 0.2em;
 	font-family: 'Tajawal', sans-serif;
@@ -687,17 +687,17 @@ ul#pages li a {
 	transition: all .25s ease;
 }
 
-ul#pages li a:hover, ul#pages li.selected a, ul#pages li.selected a:hover { 
+ul.pages li a:hover, ul.pages li.selected a, ul.pages li.selected a:hover { 
 	color: #fff;
 	background-color: #52658f;
 }
 
-ul#pages p {
+ul.pages p {
 	text-align: left;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-ul#pages li a {
+ul.pages li a {
     letter-spacing: 0.2em;	
 	font-size: .9em;
 }
@@ -1111,7 +1111,7 @@ td, th {
 
 }
 
-#shows-text {
+.shows-text {
 	margin-top: 1.5em;
 	margin-bottom: .5em;
 }
@@ -1136,7 +1136,7 @@ td, th {
 }
 
 /* Margin for videos */
-#video {
+.video {
 	position:relative;
 	margin: 1.25em 0em 2.188em 0em;
 }
