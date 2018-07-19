@@ -1284,6 +1284,7 @@ div.hide {
 	position: relative;
 	overflow: hidden;
 	border: 4px solid #fff;
+	padding: 1em;
 }
 
 .tile {
