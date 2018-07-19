@@ -66,7 +66,7 @@ To edit the footer:
 1) Change the footer links to your own
 2) Replace with your artist / band name in terms.html
 
-##Customize with Skins!
+## Customize with Skins!
 
 New black and white theme available now.
 
