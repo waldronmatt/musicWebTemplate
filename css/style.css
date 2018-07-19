@@ -636,7 +636,7 @@ ul#btmtext h6 li a {
     display: inline-block;
 	text-align: center;
     text-decoration: none;
-	margin: 1em 1.5em 1em 1.5em;
+	margin: 1em .7em 1em .7em;
 }
 
 .social_media_music li {
@@ -1020,13 +1020,12 @@ ul#pages-music li a {
 	height: 60px;
 	margin: 20px auto 40px auto;
 	border: .0625em solid #333a56; 
-
+	border-radius: 20px;
 }
 
 #audio-players h4 {
-text-align: center;
+	text-align: center;
 	margin: 10px auto -10px auto;
-	
 }
 
 .playbutton {

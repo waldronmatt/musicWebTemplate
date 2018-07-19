@@ -66,6 +66,16 @@ To edit the footer:
 1) Change the footer links to your own
 2) Replace with your artist / band name in terms.html
 
+##Customize with Skins!
+
+New black and white theme available now.
+
+1) Rename css/style_black_white.css to css/style_black_white
+
+OR
+
+1) Paste this line into the header of html documents: <link rel="stylesheet" href="css/style_black_white.css" type="text/css" title="style" />
+
 ## Built With
 
 * HTML5
