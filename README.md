@@ -74,7 +74,7 @@ New black and white theme available now.
 
 OR
 
-1) Paste this line into the header of html documents: <link rel="stylesheet" href="css/style_black_white.css" type="text/css" title="style" />
+1) Paste this line into the header of html documents: "<link rel="stylesheet" href="css/style_black_white.css" type="text/css" title="style" />"
 
 ## Built With
 
