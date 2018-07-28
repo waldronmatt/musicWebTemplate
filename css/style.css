@@ -219,7 +219,7 @@ nav:after {
 
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
-nav div {
+nav ul {
 	padding:0;
 	margin:0;
 	list-style: none;
@@ -228,7 +228,7 @@ nav div {
 }
 	
 /* Positioning the navigation items inline */
-nav div li {
+nav ul li {
 	margin: 0px;
 	display:inline-block;
 	text-align: center;
@@ -279,7 +279,7 @@ nav .scroll {
 }
 
 /* Fisrt Tier Dropdown */
-nav div ul li {
+nav ul ul li {
 	width:200px;
 	float:none;
 	display:list-item;
@@ -287,12 +287,12 @@ nav div ul li {
 	text-align: center;
 }
 
-nav div ul a{	
+nav ul ul a{	
 	font-size: 1em;
 }
 
 
-nav div li.icon {
+nav ul li.icon {
 	display: none;
 }
 	
@@ -306,11 +306,11 @@ nav a {
 
 @media screen and (min-width: 320px) and (max-width: 1023px) {
  
-nav div li:not(:nth-child(-n+0)) {
+nav ul li:not(:nth-child(-n+0)) {
 	display: none;
 }
   
-nav div li.icon {
+nav ul li.icon {
 	display:inline-block;
 	text-align: center;
 	color: #FFF;
@@ -322,29 +322,29 @@ nav div li.icon {
 
 /* The "responsive" class is added when the user clicks on the "menu" icon - for mobile support*/
 @media screen and (min-width: 320px) and (max-width: 1023px) {
-nav div.responsive {
+  nav ul.responsive {
 	position: relative;
 	text-align:center;
 	background-color: #e8e8e8;
 }
 
-nav div.responsive li.icon {
+nav ul.responsive li.icon {
 	display:inline;
     text-align: center;
 }
 
-nav div.responsive li {
+nav ul.responsive li {
     display:inline;
-	text-align: center;
+	text-align: middle;
 }
 
-nav div.responsive li a {
+ nav ul.responsive li a {
 	display: block;
     padding:0 20px;	
 	letter-spacing: 0.2em;
 }
 
-nav div.responsive ul {
+nav ul.responsive ul {
 	display: none;
 	position: relative; 
 	z-index: 1000;
@@ -595,20 +595,20 @@ footer {
 
 
 /* Text lines underneath Social Media Icons*/
-div#btmtext {
+ul#btmtext {
 	position: relative;
     display: block;
     text-align: center; 
 	clear: both;
 }
 
-div#btmtext h6 li {
+ul#btmtext h6 li {
 	display:inline-block;
 	text-align: center;
 	color: #FFF;
 }
   
-div#btmtext h6 li a {
+ul#btmtext h6 li a {
 	display: inline-block;
 	color: #FFF;
 	font: normal 100% 'Tajawal', sans-serif;
@@ -655,7 +655,7 @@ div#btmtext h6 li a {
 	height: 30%;
 } 
 
-div.pages, div.pages li {
+ul.pages, ul.pages li {
 	display: inline-block;
 	width: 100%;
 	margin: 0; 
@@ -663,7 +663,7 @@ div.pages, div.pages li {
 	list-style: none;
 }
 
-div.pages li a { 
+ul.pages li a { 
 	display: inline-block;
 	letter-spacing: 0.2em;
 	font-family: 'Tajawal', sans-serif;
@@ -687,17 +687,17 @@ div.pages li a {
 	transition: all .25s ease;
 }
 
-div.pages li a:hover, div.pages li.selected a, div.pages li.selected a:hover { 
+ul.pages li a:hover, ul.pages li.selected a, ul.pages li.selected a:hover { 
 	color: #fff;
 	background-color: #52658f;
 }
 
-div.pages p {
+ul.pages p {
 	text-align: left;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-div.pages li a {
+ul.pages li a {
     letter-spacing: 0.2em;	
 	font-size: .9em;
 }
@@ -907,7 +907,7 @@ ul#pages-music li a {
 	border: .094em solid white;
 	border-radius: 2em;
 	text-decoration: none;
-	background-color: rgb(51,58,86);
+	background-color: rgba(51,58,86);
 	font-size: 1.15em;
 	padding: .875em 1.188em .875em 1.188em;
 }
