@@ -1095,10 +1095,9 @@ tr:nth-child(odd) {
     background-color: #e8e8e8;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-	margin: 2em auto 2em auto;
+.shows-text {
+	margin-top: 1.5em;
+	margin-bottom: .5em;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -1108,11 +1107,6 @@ td, th {
 	line-height: 1.75em;
 }
 
-}
-
-.shows-text {
-	margin-top: 1.5em;
-	margin-bottom: .5em;
 }
 
 /*********************************************************************************************/
@@ -1257,7 +1251,7 @@ div.hide {
 
 /*********************************************************************************************************/
 
-/**************************************Picture Thumbnails********************************************/
+/**************************************Picture & News Thumbnails********************************************/
 
 .grid {
 	display: flex;

@@ -12,7 +12,16 @@
   
   <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" type="text/css" title="style" />
-
+  
+  <!-- scoll-fix resolves Firefox anchor location bug -->
+  <!-- When clicking a navigation option from a different page it does not accurately go to the intended id tag area. -->
+  <!-- This script reloads the page to force the anchor into the right location -->
+  <script>
+	function now(){
+		window.location.reload(true);
+	}
+  </script>
+  
 </head>
 
 <body>
@@ -200,13 +209,12 @@
 			</section>
 			<hr class="horizontal" />
 		</div>
-		
+
 			<ul class="grid">
 				<li class="grid_item span g"><a href="blog_video.html" class="grid_link"><div class="tile">New Music Video</div></a></li>
 				<li class="grid_item span h"><a href="blog_tour.html" class="grid_link"><div class="tile">Tour Dates Announced</div></a></li>
 				<li class="grid_item span i"><a href="blog_studio.html" class="grid_link"><div class="tile">In the Studio</div></a></li>
 			</ul>
-
 			
 		<div class="anchor-box">
 			<hr class="horizontal" />
