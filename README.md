@@ -2,7 +2,7 @@
 
 Free website template built for musicians / artists to promote their music and connect with their audience. 
 
-Website features a homepage hero image, mailing list form, local music player, album hero image, news, press, and shows section, YouTube video player, and a responsive picture modal.
+Website features a homepage hero image, local music player, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a mailing list form.
 
 Template is designed for speed, responsiveness, and simplicity. 
 
@@ -10,11 +10,14 @@ To view a live demo of this website, go to: http://waldronmatthew.com/portfolio/
 
 ## Getting Started
 
-To edit the mailing list:
+To edit the header and nav:
+1) Replace with your artist / band name in id "logo"
+2) Update the nav links to your own
 
-1) Create your own Google Sheets mailing list by following the tutorial by David McCoy: https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
-2) Replace your newly created google sheets link via "url" in mailingList.js
-3) Substitute your picture name in class "hero" in style.css
+To edit the home section:
+
+1) Substitute your picture name in class "hero" in style.css
+2) Edit your tagline,call-to-action (CTA), and CTA link in the class "home" in index.html
 
 To edit the about section: 
 
@@ -62,8 +65,14 @@ To edit the pictures section:
 3) Substitute your picture name in classes ".a, .b, .c", ect... in style.css
 4) Substitute your picture name in class "grid" in index.html
 
+To edit the mailing list:
+
+1) Create your own Google Sheets mailing list by following the tutorial by David McCoy: https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
+2) Replace your newly created google sheets link via "url" in mailingList.js
+3) Substitute your call-to-action and tagline in the index.html
+
 To edit the footer:
-1) Change the footer links to your own
+1) Update the footer links to your own
 2) Replace with your artist / band name in terms.html
 
 ## Customize with Skins!
