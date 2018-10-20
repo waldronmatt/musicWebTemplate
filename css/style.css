@@ -238,7 +238,7 @@ nav ul li {
 /* Styling the links */
 nav a {
 	display:block;
-	padding:0 20px;	
+	padding:0 15px;	
 	color:#000;
 	letter-spacing: 0.1em;
     font-size: 1.15em;
@@ -937,7 +937,7 @@ ul#pages-music li a {
 /************************************Hero Photos*******************************************/
 
 .hero {
-	background-image: url("../pictures/gallery/c10.jpg");
+	background-image: url("../pictures/misc/hero-img.jpg");
 	height: 380px;
 	z-index: 100;
 	margin-bottom: -46px;
@@ -945,7 +945,7 @@ ul#pages-music li a {
 }
 
 .music-hero {
-	background-image: url("../pictures/gallery/c8.jpg");
+	background-image: url("../pictures/misc/album-cover.jpg");
 	height: 300px;
 	margin-bottom: 2em;
 	margin-top: 2em;
@@ -988,7 +988,7 @@ ul#pages-music li a {
 }
 
 .hero {
-	background-image: url("../pictures/gallery/c10.jpg");
+	background-image: url("../pictures/misc/hero-img.jpg");
 	height: 320px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1313,32 +1313,32 @@ div.hide {
 }
 
 .a {
-	background-image: url("../pictures/gallery/c1.jpg");
+	background-image: url("../pictures/gallery/light-show.jpg");
 	background-size: cover;
 }
 
 .b {
-	background-image: url("../pictures/gallery/c5.jpg");
+	background-image: url("../pictures/gallery/synth.jpg");
 	background-size: cover;
 }
 
 .c {
-	background-image: url("../pictures/gallery/c6.jpg");
+	background-image: url("../pictures/gallery/singing.jpg");
 	background-size: cover;
 }
 
 .d {
-	background-image: url("../pictures/gallery/c7.jpg");
+	background-image: url("../pictures/gallery/guitar.jpg");
 	background-size: cover;
 }
 
 .e {
-	background-image: url("../pictures/gallery/c9.jpg");
+	background-image: url("../pictures/gallery/bass.jpg");
 	background-size: cover;
 }
 
 .f {
-	background-image: url("../pictures/gallery/c10.jpg");
+	background-image: url("../pictures/gallery/concert.jpg");
 	background-size: cover;
 }
 
@@ -1354,6 +1354,21 @@ div.hide {
 
 .i {
   background-image: url("../pictures/blog/eq.jpg");
+  background-size: cover;
+}
+
+.j {
+  background-image: url("../pictures/merch/logo.jpg");
+  background-size: cover;
+}
+
+.k {
+  background-image: url("../pictures/merch/thankful.jpg");
+  background-size: cover;
+}
+
+.l {
+  background-image: url("../pictures/merch/peace.jpg");
   background-size: cover;
 }
 
