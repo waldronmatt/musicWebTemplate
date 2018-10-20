@@ -2,7 +2,7 @@
 
 Free website template built for musicians / artists to promote their music and connect with their audience. 
 
-Website features a homepage hero image, local music player, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a mailing list form.
+Website features a homepage hero image, local music player, merch section, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a mailing list form.
 
 Template is designed for speed, responsiveness, and simplicity. 
 
@@ -24,6 +24,13 @@ To edit the about section:
 1) Change the social media links to your own
 2) Edit class "About" in index.html 
 
+To edit the merch section:
+
+1) Compress your pictures and reduce pixels to optimize load time
+2) Copy your pictures to dir /pictures/merch
+3) Substitute your picture name in classes ".a, .b, .c", ect... in style.css
+4) Substitute your picture name in class "grid" in index.html
+
 To edit the music section:
 
 1) Edit class "Music" in index.html
@@ -38,7 +45,7 @@ To add featured songs:
 
 To edit the news section:
 
-1) Compress your pictures to optimize load time
+1) Compress your pictures and reduce pixels to optimize load time
 2) Copy your pictures to dir /pictures/blog
 3) Substitute your picture name in classes ".a, .b, .c", ect... in style.css
 4) Substitute your picture name and blog title in class "grid" in index.html
