@@ -17,7 +17,7 @@ To edit the header and nav:
 To edit the home section:
 
 1) Substitute your picture name in class "hero" in style.css
-2) Edit your tagline,call-to-action (CTA), and CTA link in the class "home" in index.html
+2) Edit your tagline, call-to-action (CTA), and CTA link in the class "home" in index.html
 
 To edit the about section: 
 
