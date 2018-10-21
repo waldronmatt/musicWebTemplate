@@ -2,7 +2,7 @@
 
 Free website template built for musicians / artists to promote their music and connect with their audience. 
 
-Website features a homepage hero image, local music player, merch section, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a mailing list form.
+Website features a homepage hero image, merch section, local music player, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a mailing list form.
 
 Template is designed for speed, responsiveness, and simplicity. 
 
