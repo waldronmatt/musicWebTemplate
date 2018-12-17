@@ -2,7 +2,7 @@
 
 Free website template built for musicians / artists to promote their music and connect with their audience. 
 
-Website features a homepage hero image, merch section, local music player, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a mailing list form.
+Website features a homepage hero image, mailing list form, merch section, local music player, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a contact form.
 
 Template is designed for speed, responsiveness, and simplicity. 
 
@@ -18,6 +18,12 @@ To edit the home section:
 
 1) Substitute your picture name in class "hero" in style.css
 2) Edit your tagline, call-to-action (CTA), and CTA link in the class "home" in index.html
+
+To edit the mailing list:
+
+1) Create your own Google Sheets mailing list by following the tutorial by David McCoy: https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
+2) Replace your newly created google sheets link via "url" in mailingList.js
+3) Substitute your call-to-action and tagline in the index.html
 
 To edit the about section: 
 
@@ -72,11 +78,10 @@ To edit the pictures section:
 3) Substitute your picture name in classes ".a, .b, .c", ect... in style.css
 4) Substitute your picture name in class "grid" in index.html
 
-To edit the mailing list:
+To edit the contact form:
 
-1) Create your own Google Sheets mailing list by following the tutorial by David McCoy: https://medium.com/@dmccoy/how-to-submit-an-html-form-to-google-sheets-without-google-forms-b833952cc175
-2) Replace your newly created google sheets link via "url" in mailingList.js
-3) Substitute your call-to-action and tagline in the index.html
+1) Enter your email address in form.php
+2) Customize your response messages in form.php
 
 To edit the footer:
 1) Update the footer links to your own
@@ -96,7 +101,8 @@ OR
 
 * HTML5
 * CSS3
-* JQuery / Javascript
+* Javascript/jQuery/AJAX
+* PHP
 
 ## Contributing
 
@@ -104,7 +110,7 @@ When contributing to this repository, you may fork and submit a pull request. Ad
 
 ## Versioning
 
-Version 2.0.0
+Version 2.3.0
 
 ## Authors
 

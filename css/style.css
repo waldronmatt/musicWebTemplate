@@ -238,7 +238,7 @@ nav ul li {
 /* Styling the links */
 nav a {
 	display:block;
-	padding:0 15px;	
+	padding:0 12px;	
 	color:#000;
 	letter-spacing: 0.1em;
     font-size: 1.15em;
@@ -759,16 +759,13 @@ ul#pages-music li a {
 .form_settings {
 	display: block; 
 	text-align: center;
-	padding: 60px 0 50px 0;
+	padding: 20px 0 20px 0;
 }
-
-.form_settings .field { 
-	padding: 0 0 1em 0;
-} 
 
 .form_settings input, .form_settings textarea { 
 	width: 50%;
-	padding: 10px; 
+	padding: .625em;
+	margin: .6em 0 .6em 0;	
 	font-family: 'Tajawal', sans-serif;
   	font-weight: bold;
 	font-size: 1.15em;
@@ -780,6 +777,7 @@ ul#pages-music li a {
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
+	resize: none;
 }
   
 .form_settings .submit { 
@@ -789,7 +787,7 @@ ul#pages-music li a {
 	font-size: 1.15em;
 	width: 25%; 
 	text-align: center;
-	margin: 1em 0 1em 0;
+	margin: 1em 0 .5em 0;
 	padding: .6em 0 .6em 0;
 	cursor: pointer; 
 	text-transform: uppercase;
@@ -809,19 +807,17 @@ ul#pages-music li a {
 	padding: 40px 0 40px 0;
 }
 
-.form_settings .field { 
-	padding: 0 0 .6em 0;
-} 
-
 .form_settings input, .form_settings textarea { 
-	width: 90%;
-	padding: 10px; 
+	width: 100%;
+	padding: .625em; 
+	margin: .6em 0 .6em 0;
 	font-family: 'Tajawal', sans-serif;
   	font-weight: bold;
 	font-size: 1em;
 	border: 2px solid #000000 ; 
 	background: #FFF; 
 	color: #000;
+	resize: none;
 }
   
 .form_settings .submit { 
