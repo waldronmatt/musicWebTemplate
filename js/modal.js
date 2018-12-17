@@ -56,6 +56,7 @@ window.onclick = function(event) {
 }
 }
 
+// toggles the about text
 function hideText() {
 	var x = document.getElementById("about-text");
 		if (x.className === "hide") {

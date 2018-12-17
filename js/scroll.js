@@ -1,3 +1,4 @@
+// Double click the responsive hamburger menu to toggle it in Firefox
 $(document).on('click', '#scroll li', function(event) { 
 	$("#icon a").click();
 });
