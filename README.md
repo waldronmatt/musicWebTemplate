@@ -1,3 +1,7 @@
+<h1 align=center>
+<img src="Logotype 1024 .svg" width=80%>
+</h1>
+
 # Music Website Template
 
 Free website template built for musicians / artists to promote their music and connect with their audience. 
