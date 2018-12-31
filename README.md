@@ -2,8 +2,6 @@
 <img src="Logotype 1024 .svg" width=80%>
 </h1>
 
-# Music Website Template
-
 Free website template built for musicians / artists to promote their music and connect with their audience. 
 
 Website features a homepage hero image, mailing list form, merch section, local music player, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a contact form.
