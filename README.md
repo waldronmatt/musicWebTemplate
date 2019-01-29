@@ -103,8 +103,8 @@ OR
 
 * HTML5
 * CSS3
-* Javascript/jQuery/AJAX
-* PHP
+* jQuery/JavaScript/AJAX
+* PHP5
 
 ## Contributing
 
