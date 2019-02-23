@@ -60,7 +60,7 @@ header {
 
 #logo h1 {
 	display: block;
-	margin: 0 0 0 0;
+	margin: .2em 0 0 0;
 	text-align: center;
 	letter-spacing: .2em;
 	font: normal 300% 'Tajawal', sans-serif;
@@ -124,7 +124,7 @@ header {
 /* Resize font for mobile */
 #logo h1 {
 	display: block;
-	margin: 0 auto;
+	margin: .2em 0 0 0;
 	text-align: center;
 	letter-spacing: .2em;
 	font: normal 250% 'Tajawal', sans-serif;
@@ -197,8 +197,8 @@ header, .container-scrolled {
 .container {
 	margin: 0 auto;
 	z-index: 150;
-	height: 80px;
-	margin-bottom: -80px;
+	height: 60px;
+	margin-bottom: -60px;
 }
 
 /* Background-color to the nav container. */
@@ -236,7 +236,7 @@ nav ul li {
 }
 
 /* Styling the links */
-nav a {
+nav ul li a, nav ul ul li a {
 	display:block;
 	padding:0 12px;	
 	color:#000;
@@ -258,17 +258,6 @@ nav a:hover, nav li.selected a, nav li.selected a:hover {
 	background-color: #52658f; 
 	color: #fff;
 }
-
-/* Hide Dropdowns by Default
- * and giving it a position of absolute */
-nav .down {
-	display: none;
-	position: absolute; 
-	z-index: 1000;
-	/* has to be the same number as the "line-height" of "nav a" */
-	top: 40px; 
-	text-align: center;  
-}
 	
 nav li .down a {
 	display: block;
@@ -278,19 +267,9 @@ nav .scroll {
 	display: inline-block;
 }
 
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-	width:200px;
-	float:none;
-	display:list-item;
-	position: relative;
-	text-align: center;
-}
-
 nav ul ul a{	
 	font-size: 1em;
 }
-
 
 nav ul li.icon {
 	display: none;
@@ -314,7 +293,7 @@ nav ul li.icon {
 
 /* The "responsive" class is added when the user clicks on the "menu" icon - for mobile support*/
 @media screen and (min-width: 320px) and (max-width: 1023px) {
-  nav ul.responsive {
+nav ul.responsive {
 	position: relative;
 	text-align:center;
 	background-color: #e8e8e8;
@@ -327,22 +306,12 @@ nav ul.responsive li.icon {
 
 nav ul.responsive li {
     display:inline;
-	text-align: middle;
 }
 
  nav ul.responsive li a {
 	display: block;
     padding:0 20px;	
 	letter-spacing: 0.2em;
-}
-
-nav ul.responsive ul {
-	display: none;
-	position: relative; 
-	z-index: 1000;
-	/* has to be the same number as the "line-height" of "nav a" */
-	top: -10px; 
-	text-align: center;  
 }
 
 /* Display Dropdowns on Hover */
@@ -416,7 +385,7 @@ h4, h5 {
 
 h6 {
 	font-size: 1.125em;
-	margin: 0 0 .3em 0;
+	margin: 0 0 .2em 0;
 }
 
 h3 {
@@ -474,7 +443,7 @@ h4, h5 {
 
 h6 {
 	font-size: 1em;
-	margin: 0 0 .3em 0;
+	margin: 0 0 .2em 0;
 }
 
 .vertical {
@@ -544,11 +513,9 @@ footer {
 	transform: translateX(-50%);
 	display: inline;
 	background-color: #333a56;
-	height: 1.3em;
 	font: normal 80% 'Tajawal', sans-serif;
 	margin: .3em auto .3em auto;
 	max-width: 80%;
-	width: 80%;
 }
 
 /* Social Media Icons + Mailing List Button */
@@ -592,18 +559,19 @@ ul#btmtext {
     display: block;
     text-align: center; 
 	clear: both;
+	list-style: none;
 }
 
-ul#btmtext h6 li {
+ul#btmtext li h6 {
 	display:inline-block;
 	text-align: center;
 	color: #FFF;
 }
   
-ul#btmtext h6 li a {
+ul#btmtext li h6 a {
 	display: inline-block;
 	color: #FFF;
-	font: normal 100% 'Tajawal', sans-serif;
+	font: normal 80% 'Tajawal', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.2em;
@@ -617,11 +585,13 @@ ul#btmtext h6 li a {
 	transform: translateX(-50%);
 	display: inline;
 	background-color: #333a56;
-	height: 1.3em;
 	font: normal 75% 'Tajawal', sans-serif;
 	margin: .3em auto .3em auto;
 	max-width: 90%;
-	width: 90%;
+}
+
+ul#btmtext li h6 a {
+	font: normal 75% 'Tajawal', sans-serif;
 }
 
 #social_media li {
@@ -696,14 +666,14 @@ ul.pages li a {
 
 }
 
-#pagesbar-music { 
+.pagesbar-music { 
 	display: block; 
 	text-align: center;
 	clear: both;
 	height: 30%;
 } 
 
-ul#pages-music , ul#pages-music li {
+ul.pages-music , ul.pages-music li {
 	display: inline-block;
 	width: 100%;
 	margin: 0; 
@@ -711,7 +681,7 @@ ul#pages-music , ul#pages-music li {
 	list-style: none;
 }
 
-ul#pages-music li a { 
+ul.pages-music li a { 
 	display: inline-block;
 	letter-spacing: 0.2em;
 	font-family: 'Tajawal', sans-serif;
@@ -735,17 +705,17 @@ ul#pages-music li a {
 	transition: all .25s ease;
 }
 
-ul#pages-music li a:hover, ul#pages-music li.selected a, ul#pages-music li.selected a:hover { 
+ul.pages-music li a:hover, ul.pages-music li.selected a, ul.pages-music li.selected a:hover { 
 	color: #fff;
 	background-color: #52658f;
 }
 
-ul#pages-music  p {
+ul.pages-music  p {
 	text-align: left;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-ul#pages-music li a {
+ul.pages-music li a {
     letter-spacing: 0.2em;	
 	font-size: .9em;
 	margin: .5em 0 1.25em 0;
@@ -863,9 +833,9 @@ ul#pages-music li a {
     background-color: #fff;
     margin: auto;
     padding: 10px;
-    border: 2px solid #fff;
+    border: 2px solid;
     width: 70%;
-	   animation-name: animatetop;
+	animation-name: animatetop;
     animation-duration: 0.4s
 }
 
@@ -1126,11 +1096,6 @@ td, th {
 
 }
 
-/* Centers and scales YouTube iframe */
-.wrapper {
-
-}
-
 /* Margin for videos */
 .video {
 	position:relative;
@@ -1177,6 +1142,7 @@ td, th {
 }
     
 .youtube-player img:hover {
+	filter: brightness(75%);
     -webkit-filter: brightness(75%);
 }
     
@@ -1248,7 +1214,7 @@ td, th {
 	
 }
 
-div.hide { 
+div li.hide { 
 	display:none; 
 }
 
@@ -1339,33 +1305,33 @@ div.hide {
 }
 
 .g {
-  background-image: url("../pictures/blog/song.jpg");
-  background-size: cover;
+  	background-image: url("../pictures/blog/song.jpg");
+  	background-size: cover;
 }
 
 .h {
-  background-image: url("../pictures/blog/edm.jpg");
-  background-size: cover;
+  	background-image: url("../pictures/blog/edm.jpg");
+  	background-size: cover;
 }
 
 .i {
-  background-image: url("../pictures/blog/eq.jpg");
-  background-size: cover;
+  	background-image: url("../pictures/blog/eq.jpg");
+  	background-size: cover;
 }
 
 .j {
-  background-image: url("../pictures/merch/logo.jpg");
-  background-size: cover;
+  	background-image: url("../pictures/merch/logo.jpg");
+  	background-size: cover;
 }
 
 .k {
-  background-image: url("../pictures/merch/thankful.jpg");
-  background-size: cover;
+  	background-image: url("../pictures/merch/thankful.jpg");
+  	background-size: cover;
 }
 
 .l {
-  background-image: url("../pictures/merch/peace.jpg");
-  background-size: cover;
+  	background-image: url("../pictures/merch/peace.jpg");
+  	background-size: cover;
 }
 
 
