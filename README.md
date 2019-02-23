@@ -4,13 +4,19 @@
 
 Free website template built for musicians / artists to promote their music and connect with their audience. 
 
-Website features a homepage hero image, mailing list form, merch section, local music player, album hero image, news, press, and shows section, YouTube video player, responsive picture modal, and a contact form.
-
-Template is designed for speed, responsiveness, and simplicity. 
-
 To view a live demo of this website, go to: http://waldronmatthew.com/portfolio/music/index.html
 
+## Features
+
+* Customizable hero images and responsive picture modal
+* Javascript based music player and YouTube thumbnail generator optimzed for page loading
+* Mailing list and contact form with validation and back-end integration
+* Additional sections inlcuding an about, merch, news press, and shows section
+* Project code meets HTML and CSS W3C validation compliance (excluding the black and white css skin)
+
 ## Getting Started
+
+Note: It is recommended you use a local web server set up with php and a mail server for full testing functionality.
 
 To edit the header and nav:
 1) Replace with your artist / band name in id "logo"

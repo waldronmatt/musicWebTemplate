@@ -22,9 +22,3 @@ function myMenu() {
     }
 }
 
-$(function() {
-// Dropdown toggle
-$('.drop').click(function(){
-  $(this).next('.down').toggle();
-});
-});

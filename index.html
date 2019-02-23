@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
   <title>Music Website Template</title>
@@ -34,13 +34,13 @@
       </div>
 	 </header>
 	 
-		<div class="container">
-			<nav class="main-nav">
-				<ul class="clearfix" id="cfix">
-					<li class="icon" id="icon">
-						<a href="javascript:void(0);" onclick="myMenu()">&#9776; Menu</a>
-					</li>
-					<div class="scroll" id="scroll">
+		<nav class="container">
+			<ul class="clearfix" id="cfix">
+				<li class="icon" id="icon">
+					<a href="javascript:void(0);" onclick="myMenu()">&#9776; Menu</a>
+				</li>
+				<li>
+					<ul class="scroll" id="scroll">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#merch">Merch</a></li>
@@ -52,10 +52,10 @@
 						<li><a href="#shows">Shows</a></li>
 						<li><a href="#photos">Photos</a></li>
 						<li><a href="#contact">Contact</a></li>
-					</div>
-				</ul>
-			</nav>
-		</div>
+					</ul>
+				</li>
+			</ul>
+		</nav>
 	  
 	<section id="home">
 	<hr class="horizontal" />
@@ -66,8 +66,8 @@
 				<h2>California Blues Live</h2>
 				<p>Acoustic live session ft. Jane Doe</p>
 				
-				<div id="pagesbar-music">
-					<ul id="pages-music">
+				<div class="pagesbar-music">
+					<ul class="pages-music">
 						<li><a href="index.html#videos">Click Here to Watch</a></li>
 					</ul>	
 				</div>			
@@ -113,7 +113,7 @@
 			<div class="pagesbar">
 				<ul class="pages">
 					<li><a href="javascript:void(0);" onclick="hideText()">Read Bio</a></li>
-					<div class="hide" id="about-text">
+					<li class="hide" id="about-text">
 						<p>Nunc sagittis mauris nec orci sagittis, vitae dictum libero pellentesque. Proin lorem nisi, tristique at massa id, 
 						   mattis condimentum lectus. Proin viverra magna ut suscipit congue. Integer posuere enim dui, vel ullamcorper ligula euismod in. 
 						   Aenean vulputate imperdiet bibendum. Sed non erat eu ipsum convallis maximus. Sed ipsum arcu, viverra vel ipsum egestas, 
@@ -126,7 +126,7 @@
 						   In egestas a urna sit amet elementum.
 						</p>
 						</div>
-					</div>
+					</li>
 				</ul>	
 			</div>
 			
@@ -205,8 +205,8 @@
 						<div class="hero-text">
 
 				<h2>Kaleidoscope Memories</h2>
-				<div id="pagesbar-music">
-					<ul id="pages-music">
+				<div class="pagesbar-music">
+					<ul class="pages-music">
 						<li><a href="index.html">Stream</a></li>
 					</ul>	
 				</div>
@@ -295,7 +295,7 @@
 				<div class="flexbox-video">
 				<div class="video">
 					<h4 class="center">Coldplay - Fix You</h4>
-					<div class="youtube-player" data-id="k4V3Mo61fJM" width="560" height="315"></div>
+					<div class="youtube-player" data-id="k4V3Mo61fJM"></div>
 				</div>
 			
 				<div class="video">
@@ -421,7 +421,7 @@
             <input class="email" type="email" name="email" placeholder="Email" required />
 			<input class="subject" type="text" name="subject" placeholder="Subject" required />
             <textarea class="message" rows="4" cols="50" name="message" placeholder="Message" required></textarea>
-			<div id="myBtn">
+			<div>
             <input class="submit" type="submit" name="contact_submitted" value="submit" />
 			</div>
           </div>
@@ -432,8 +432,7 @@
 	</div>
 
 	<footer>
-		<div id="footer">
-			 <ul id="social_media">
+		<ul id="social_media">
 			<li><a href="index.html">
 			<img src="pictures/icons/facebook.png" alt="Facebook" /></a></li>
 
@@ -463,16 +462,14 @@
 			
 			<li><a href="index.html#mail">
 			<img src="pictures/icons/mail.png" alt="Subscribe" /></a></li>
-			
-			</ul>
+		</ul>
 			
 		<ul id="btmtext">
-		  <h6><li><a href="terms.html">Copyright &copy; 2018 Your Artist / Band Name. All Rights Reserved.</a></li></h6>
-		  <h6><li><a href="web.html">Website Credits</a></li></h6>
+		  <li><h6><a href="terms.html">Copyright &copy; 2018 Your Artist / Band Name. All Rights Reserved.</a></h6></li>
+		  <li><h6><a href="web.html">Website Credits</a></h6></li>
 		</ul>
-		
-		</div>
 	</footer>
+	
 	<script src="js/mailingList.js"></script>
 	<script src="js/contact.js"></script>
 	<script src="js/jquery.serialize-object.js"></script>
