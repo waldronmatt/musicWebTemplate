@@ -4,8 +4,6 @@
 
 Free website template built for musicians / artists to promote their music and connect with their audience. 
 
-To view a live demo of this website, go to: http://waldronmatthew.com/portfolio/music/index.html
-
 ## Features
 
 * Customizable hero images and responsive picture modal
