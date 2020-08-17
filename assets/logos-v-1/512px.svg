@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512px" height="326px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 51200 32600"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#373435}
+    .fil1 {fill:#333A56}
+    .fil2 {fill:#52658F}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_249673120">
+   <rect class="fil0" transform="matrix(-1.23897E-014 0.750576 -1.23069 -5.2296E-014 46584.6 10102.1)" width="16125" height="2875" rx="1438" ry="1438"/>
+   <rect class="fil0" transform="matrix(-8.61996E-015 0.410259 -1.23069 -4.10853E-014 51215.5 12845.9)" width="16125" height="2875" rx="1438" ry="1438"/>
+   <rect class="fil0" transform="matrix(1.23897E-014 -0.750576 1.23069 5.2296E-014 4615.52 22485.9)" width="16125" height="2875" rx="1438" ry="1438"/>
+   <rect class="fil0" transform="matrix(8.61997E-015 -0.418029 1.23069 4.18634E-014 -15.4304 19804.8)" width="16125" height="2875" rx="1438" ry="1438"/>
+   <path class="fil1" d="M15999 3113c5697,-4152 13477,-4153 19174,-1l-4231 4230c-3287,-1969 -7426,-1969 -10713,0l-4230 -4229zm22774 3599c4153,5698 4152,13478 0,19175l-4230 -4230c1970,-3288 1969,-7426 0,-10714l4230 -4231zm-3600 22775c-5697,4153 -13478,4153 -19175,0l4231 -4230c3288,1969 7426,1969 10714,0l4230 4230zm-22775 -3600c-4152,-5696 -4152,-13477 1,-19174l4230 4230c-1970,3288 -1971,7426 -1,10714l-4230 4230z"/>
+   <path class="fil2" d="M27614 12758l4657 2689 -1 1c160,93 298,227 397,399 298,519 119,1182 -400,1480l-4657 2689 -4566 2636c-178,127 -396,201 -631,201 -602,0 -1089,-488 -1089,-1089l0 -5377 4 -5377c0,-184 47,-370 145,-540 298,-520 961,-699 1480,-400l4601 2656c20,10 40,21 60,32z"/>
+  </g>
+ </g>
+</svg>
